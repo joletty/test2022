@@ -13,8 +13,8 @@ def calculate_vwap(df):
 
 def main():
     # Load the data
-    df = pd.read_csv('2023_europe.csv')
-    df_v = pd.read_csv('2023_vwap.csv')
+    df = pd.read_csv('2022_europe.csv')
+    df_v = pd.read_csv('2022_vwap.csv')
     
     # Create a chart
     chart = StreamlitChart(width=300, height=550)
