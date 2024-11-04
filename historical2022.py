@@ -12,7 +12,7 @@ def calculate_vwap(df):
 def main():
     df = pd.read_csv('2022_europe.csv')
     df_v = pd.read_csv('2022_vwap.csv')
-    chart = StreamlitChart(width=800, height=550)
+    chart = StreamlitChart(width=950, height=600)
     chart.legend(visible=True)
     
     chart.set(df)    
